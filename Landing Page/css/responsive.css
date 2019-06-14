@@ -168,6 +168,7 @@
     .mainmenu-area #primary_menu {
         overflow-y: auto;
         max-height: 80vh;
+        align-self: right;
     }
     .mainmenu-area #primary_menu ul.nav.navbar-nav li {
         display: block;
