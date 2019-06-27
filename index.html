@@ -1,190 +1,215 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="zxx">
+  <style>
+    .right {
+      position: absolute;
+      right: 0px;
+      width: auto;
+      padding: 0px;
+    }
+    .centered {
+      margin: 0;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin-right: -50%;
+      transform: translate(-50%, -50%);
+    }
+    .leftpos {
+      left: 0;
+      margin: 0;
+    }
+  </style>
 
-        <style>
-                .right {
-                  position: absolute;
-                  right: 0px;
-                  width: auto;
-                  padding: 0px;
-                }
-                .centered{
-                    margin: 0;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    margin-right: -50%;
-                    transform: translate(-50%, -50%) 
-                }
-                .leftpos{
-                    left:0;
-                    margin:0
-                }
-                </style>
-
-<head>
-    <meta charset="utf-8">
-    <meta name="author" content="Sumon Rahman">
-    <meta name="description" content="">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="author" content="Sumon Rahman" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Title -->
     <title>AfterTeach</title>
     <!-- Place favicon.ico in the root directory -->
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
     <link rel="shortcut icon" type="image/ico" href="images/favicon.ico" />
     <!-- Plugin-CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/owl.carousel.min.css">
-    <link rel="stylesheet" href="css/linearicons.css">
-    <link rel="stylesheet" href="css/magnific-popup.css">
-    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/linearicons.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/animate.css" />
     <!-- Main-Stylesheets -->
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
     <script src="js/vendor/modernizr-2.8.3.min.js"></script>
     <!--[if lt IE 9]>
-        <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-        <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <script src="//oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
+  </head>
 
-<body data-spy="scroll" data-target=".mainmenu-area">
+  <body data-spy="scroll" data-target=".mainmenu-area">
     <!-- Preloader-content -->
     <div class="preloader">
-        <span><i class="lnr lnr-sun"></i></span>
+      <span><i class="lnr lnr-sun"></i></span>
     </div>
     <!-- MainMenu-Area -->
     <nav class="mainmenu-area" data-spy="affix" data-offset-top="200">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#primary_menu">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><img src="images/logoIconAT.png" alt="Logo"></a>
-            </div>
-            <div class="collapse navbar-collapse" id="primary_menu">
-                <ul class="nav navbar-nav mainmenu right">
-                    <li class="active"><a href="#home_page">Inicio</a></li>
-                    <li><a href="#caract">Caracteristicas</a></li>
-                    <li><a href="#team">Equipo</a></li>
-                    <li><a href="#product">Producto</a></li>
-                    <li><a href="#Descargar">Descargar</a></li>
-                    <li><a href="#Contacto">Contacto</a></li>
-                    
-                </ul>
-            </div>
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#primary_menu"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#"
+            ><img src="images/logoIconAT.png" alt="Logo"
+          /></a>
         </div>
+        <div class="collapse navbar-collapse" id="primary_menu">
+          <ul class="nav navbar-nav mainmenu right">
+            <li class="active"><a href="#home_page">Inicio</a></li>
+            <li><a href="#caract">Caracteristicas</a></li>
+            <li><a href="#team">Equipo</a></li>
+            <li><a href="#product">Producto</a></li>
+            <li><a href="#Descargar">Descargar</a></li>
+            <li><a href="#Contacto">Contacto</a></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!-- MainMenu-Area-End -->
     <!-- Home-Area -->
     <header class="home-area overlay" id="home_page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 hidden-sm col-md-5">
-                    <figure class="mobile-image wow fadeInUp" data-wow-delay="0.2s">
-                        <img src="images/header-mobile 2.png" alt="">
-                    </figure>
-                </div>
-                <div class="col-xs-12 col-md-7">
-                    <div class="space-80 hidden-xs"></div>
-                    <h1 class="wow fadeInUp" data-wow-delay="0.4s">La Mejor App para Padres y Tutores</h1>
-                    <div class="space-20"></div>
-                    <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                        <p>La mejor aplicacion del mercado "After Teach" puede simplificar la comunicacion entre padres y tutores para reservar tutorias e incrementar el rendimiento de tus hijo</p>
-                    </div>
-                    <div class="space-20"></div>
-                    <a href="#Descargar" class="bttn-white wow fadeInUp" data-wow-delay="0.8s"><i class="lnr lnr-download"></i>Descarga el app!</a>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 hidden-sm col-md-5">
+            <figure class="mobile-image wow fadeInUp" data-wow-delay="0.2s">
+              <img src="images/header-mobile 2.png" alt="" />
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-7">
+            <div class="space-80 hidden-xs"></div>
+            <h1 class="wow fadeInUp" data-wow-delay="0.4s">
+              La Mejor App para Padres y Tutores
+            </h1>
+            <div class="space-20"></div>
+            <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+              <p>
+                La mejor aplicacion del mercado "After Teach" puede simplificar
+                la comunicacion entre padres y tutores para reservar tutorias e
+                incrementar el rendimiento de tus hijo
+              </p>
             </div>
+            <div class="space-20"></div>
+            <a
+              href="#Descargar"
+              class="bttn-white wow fadeInUp"
+              data-wow-delay="0.8s"
+              ><i class="lnr lnr-download"></i>Descarga el app!</a
+            >
+          </div>
         </div>
+      </div>
     </header>
     <!-- Home-Area-End -->
     <!--Price-Area -->
     <section class="section-padding price-area" id="price_page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="page-title text-center">
-                            <h5 class="title">Caracteristicas</h5>
-                            <h3 class="dark-color">¿Por qué elegir AfterTeach?</h3>
-                            <div class="space-60"></div>
-                        </div>
-                    </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="page-title text-center">
+              <h5 class="title">Caracteristicas</h5>
+              <h3 class="dark-color">¿Por qué elegir AfterTeach?</h3>
+              <div class="space-60"></div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-4">
+            <div class="price-box">
+              <div class="price-header">
+                <div class="price-icon">
+                  <span>
+                    <!--ADD imagen-->
+                  </span>
                 </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="price-box">
-                            <div class="price-header">
-                                <div class="price-icon">
-                                    <span>
-                                        <!--ADD imagen-->
-                                    </span>
-                                </div>
-                                <h4 class="upper">Busca Tutores</h4>
-                            </div>
-                            <div class="price-body">
-                                <p>El padre de familia puede buscar tutores de forma rapida y eficaz para diferentes cursos</p>
-                                <!--<ul>
+                <h4 class="upper">Busca Tutores</h4>
+              </div>
+              <div class="price-body">
+                <p>
+                  El padre de familia puede buscar tutores de forma rapida y
+                  eficaz para diferentes cursos
+                </p>
+                <!--<ul>
                                     <li></li>
                                     <li>Uniqe Elements</li>
                                 </ul>-->
-                            </div>
-                        </div>
-                        <div class="space-30 hidden visible-xs"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="price-box">
-                            <div class="price-header">
-                                <div class="price-icon">
-                                    <span >
-                                        <!--ADD imagen-->
-                                    </span>
-                                </div>
-                                <h4 class="upper">Rendimiento</h4>
-                            </div>
-                            <div class="price-body">
-                                <p>Los padres pueden ver el desempeño de sus hijos por cada tutoria y hacer un seguimiento al progreso de sus hijos</p>
-                               <!-- <ul>
+              </div>
+            </div>
+            <div class="space-30 hidden visible-xs"></div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="price-box">
+              <div class="price-header">
+                <div class="price-icon">
+                  <span>
+                    <!--ADD imagen-->
+                  </span>
+                </div>
+                <h4 class="upper">Rendimiento</h4>
+              </div>
+              <div class="price-body">
+                <p>
+                  Los padres pueden ver el desempeño de sus hijos por cada
+                  tutoria y hacer un seguimiento al progreso de sus hijos
+                </p>
+                <!-- <ul>
                                     <li>Easy Installations</li>
                                     <li>Unlimited support</li>
                                     <li>Free Forever</li>
                                 </ul>
                             -->
-                            </div>
-                        </div>
-                        <div class="space-30 hidden visible-xs"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="price-box">
-                            <div class="price-header">
-                                <div class="price-icon">
-                                    <span >
-                                        <!--ADD imagen-->
-                                    </span>
-                                </div>
-                                <h4 class="upper">Calificacion</h4>
-                            </div>
-                            <div class="price-body">
-                                <p>El padre de familia puede calificar a los tutores y escribir sugerencias y reseñas de ellos</p>
-                               <!--
+              </div>
+            </div>
+            <div class="space-30 hidden visible-xs"></div>
+          </div>
+          <div class="col-xs-12 col-sm-4">
+            <div class="price-box">
+              <div class="price-header">
+                <div class="price-icon">
+                  <span>
+                    <!--ADD imagen-->
+                  </span>
+                </div>
+                <h4 class="upper">Calificacion</h4>
+              </div>
+              <div class="price-body">
+                <p>
+                  El padre de familia puede calificar a los tutores y escribir
+                  sugerencias y reseñas de ellos
+                </p>
+                <!--
                                 <ul>
                                     <li>Easy Installations</li>
                                     <li>Unlimited support</li>
                                     <li>Free Forever</li>
                                 </ul>
                             -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </section>
-        <!--Price-Area-End -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Price-Area-End -->
     <!-- About-Area 
     <section class="section-padding" id="about_page">
         <div class="container">
@@ -236,207 +261,252 @@
 
     <!-- Feature-Area -->
     <section class="feature-area section-padding-top" id="caract">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-8 col-sm-offset-2">
-                    <div class="page-title text-center">
-                        <h5 class="title">Unico</h5>
-                        <div class="space-10"></div>
-                        <h3>Caracteristicas unicas del app</h3>
-                        <div class="space-60"></div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-8 col-sm-offset-2">
+            <div class="page-title text-center">
+              <h5 class="title">Unico</h5>
+              <div class="space-10"></div>
+              <h3>Caracteristicas unicas del app</h3>
+              <div class="space-60"></div>
             </div>
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="box-icon">
-                            <i class="lnr lnr-magnifier"></i>
-                        </div>
-                        <h4>Busca tu tutor ideal</h4>
-                        <p>Utiliza nuestro amplio directorio de tutores disponibles</p>
-                    </div>
-                    <div class="space-60"></div>
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="box-icon">
-                            <i class="lnr lnr-checkmark-circle"></i>
-                        </div>
-                        <h4>Puntua y califica a los tutores</h4>
-                        <p>Seras capaz de calificar a los tutores y conocer sus puntajes</p>
-                    </div>
-                    <div class="space-60"></div>
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="box-icon">
-                            <i class="lnr lnr-cloud-check"></i>
-                        </div>
-                        <h4>Registro de notas en la nube</h4>
-                        <p>Podras llevar un registro del desempeño de tus hijos por tutoria</p>
-                    </div>
-                    <div class="space-60"></div>
-                </div>
-                <div class="hidden-xs hidden-sm col-md-4">
-                    <figure class="mobile-image">
-                        <img src="images/header-mobile 2.png" alt="Feature Photo">
-                    </figure>
-                </div>
-                <div class="col-xs-12 col-sm-6 col-md-4">
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="box-icon">
-                            <i class="lnr lnr-clock"></i>
-                        </div>
-                        <h4>Organiza tus horarios junto al tutor</h4>
-                        <p>Organiza las tutorias directamente con el tutor que deseas elegir</p>
-                    </div>
-                    <div class="space-60"></div>
-                    
-                    <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="box-icon">
-                                <i class="lnr lnr-checkmark-circle"></i>
-                            </div>
-                            <h4>Mejora las calificaciones de tus hijos en poco tiempo!</h4>
-                            <p>Apoya al desarrollo academico de ellos y disfruta mas tiempo</p>
-                        </div>
-                        <div class="space-60"></div>
-
-
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box-icon">
+                <i class="lnr lnr-magnifier"></i>
+              </div>
+              <h4>Busca tu tutor ideal</h4>
+              <p>Utiliza nuestro amplio directorio de tutores disponibles</p>
+            </div>
+            <div class="space-60"></div>
+            <div class="service-box wow fadeInUp" data-wow-delay="0.4s">
+              <div class="box-icon">
+                <i class="lnr lnr-checkmark-circle"></i>
+              </div>
+              <h4>Puntua y califica a los tutores</h4>
+              <p>
+                Seras capaz de calificar a los tutores y conocer sus puntajes
+              </p>
+            </div>
+            <div class="space-60"></div>
+            <div class="service-box wow fadeInUp" data-wow-delay="0.6s">
+              <div class="box-icon">
+                <i class="lnr lnr-cloud-check"></i>
+              </div>
+              <h4>Registro de notas en la nube</h4>
+              <p>
+                Podras llevar un registro del desempeño de tus hijos por tutoria
+              </p>
+            </div>
+            <div class="space-60"></div>
+          </div>
+          <div class="hidden-xs hidden-sm col-md-4">
+            <figure class="mobile-image">
+              <img src="images/header-mobile 2.png" alt="Feature Photo" />
+            </figure>
+          </div>
+          <div class="col-xs-12 col-sm-6 col-md-4">
+            <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box-icon">
+                <i class="lnr lnr-clock"></i>
+              </div>
+              <h4>Organiza tus horarios junto al tutor</h4>
+              <p>
+                Organiza las tutorias directamente con el tutor que deseas
+                elegir
+              </p>
+            </div>
+            <div class="space-60"></div>
+
+            <div class="service-box wow fadeInUp" data-wow-delay="0.2s">
+              <div class="box-icon">
+                <i class="lnr lnr-checkmark-circle"></i>
+              </div>
+              <h4>Mejora las calificaciones de tus hijos en poco tiempo!</h4>
+              <p>
+                Apoya al desarrollo academico de ellos y disfruta mas tiempo
+              </p>
+            </div>
+            <div class="space-60"></div>
+          </div>
+        </div>
+      </div>
     </section>
     <!-- Feature-Area-End -->
 
     <!-- Video-Area -->
     <section class="video-area section-padding" id="team">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="video-photo">
-                        <!--<img src="images/video-image.jpg" alt="">-->
-                       <iframe width="560" height="346" src="https://www.youtube.com/embed/2WbQGv58dYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <!--<a href="https://www.youtube.com/watch?v=2WbQGv58dYY" class="popup video-button">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="video-photo">
+              <!--<img src="images/video-image.jpg" alt="">-->
+              <iframe
+                width="560"
+                height="346"
+                src="https://www.youtube.com/embed/2WbQGv58dYY"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <!--<a href="https://www.youtube.com/watch?v=2WbQGv58dYY" class="popup video-button">
                             <img src="images/play-button.png" alt="">
                         </a>-->
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-5 col-md-offset-1">
-                    <div class="space-60 hidden visible-xs"></div>
-                    <div class="page-title">
-                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Sobre nosotros</h5>
-                        <div class="space-10"></div>
-                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Acerca del Equipo</h3>
-                        <div class="space-20"></div>
-                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                            <p>Conoce acerca de equipo detras del proyecto AfterTeach.</p>
-                        </div>
-                        <div class="space-50"></div>
-                        
-                    </div>
-                </div>
             </div>
+          </div>
+          <div class="col-xs-12 col-md-5 col-md-offset-1">
+            <div class="space-60 hidden visible-xs"></div>
+            <div class="page-title">
+              <h5 class="title wow fadeInUp" data-wow-delay="0.2s">
+                Sobre nosotros
+              </h5>
+              <div class="space-10"></div>
+              <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">
+                Acerca del Equipo
+              </h3>
+              <div class="space-20"></div>
+              <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                <p>Conoce acerca de equipo detras del proyecto AfterTeach.</p>
+              </div>
+              <div class="space-50"></div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <section class="video-area section-padding" id="product">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-md-6">
-                    <div class="video-photo">
-                        <!--<img src="images/video-image.jpg" alt="">-->
-                       <iframe width="560" height="346" src="https://www.youtube.com/embed/rQYzq_-U71g" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                        <!--<a href="https://www.youtube.com/watch?v=2WbQGv58dYY" class="popup video-button">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div class="video-photo">
+              <!--<img src="images/video-image.jpg" alt="">-->
+              <iframe
+                width="560"
+                height="346"
+                src="https://www.youtube.com/embed/rQYzq_-U71g"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+              <!--<a href="https://www.youtube.com/watch?v=2WbQGv58dYY" class="popup video-button">
                             <img src="images/play-button.png" alt="">
                         </a>-->
-                    </div>
-                </div>
-                <div class="col-xs-12 col-md-5 col-md-offset-1">
-                    <div class="space-60 hidden visible-xs"></div>
-                    <div class="page-title">
-                        <h5 class="title wow fadeInUp" data-wow-delay="0.2s">Sobre el producto</h5>
-                        <div class="space-10"></div>
-                        <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">Acerca de After Teach</h3>
-                        <div class="space-20"></div>
-                        <div class="desc wow fadeInUp" data-wow-delay="0.6s">
-                            <p>Conoce un poco mas acerca de AfterTeach y como funciona.</p>
-                        </div>
-                        <div class="space-50"></div>
-                        
-                    </div>
-                </div>
             </div>
+          </div>
+          <div class="col-xs-12 col-md-5 col-md-offset-1">
+            <div class="space-60 hidden visible-xs"></div>
+            <div class="page-title">
+              <h5 class="title wow fadeInUp" data-wow-delay="0.2s">
+                Sobre el producto
+              </h5>
+              <div class="space-10"></div>
+              <h3 class="dark-color wow fadeInUp" data-wow-delay="0.4s">
+                Acerca de After Teach
+              </h3>
+              <div class="space-20"></div>
+              <div class="desc wow fadeInUp" data-wow-delay="0.6s">
+                <p>Conoce un poco mas acerca de AfterTeach y como funciona.</p>
+              </div>
+              <div class="space-50"></div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
     <!-- Video-Area-End -->
 
-
-
-    <!-- Testimonial-Area -->
+    <!-- Testimonial-Area 
     <section class="testimonial-area" id="testimonial_page">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="page-title text-center">
-                        <h5 class="title">Testimonios</h5>
-                        <h3 class="dark-color">Nuestros usuarios nos aprueban!</h3>
-                        <div class="space-60"></div>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="page-title text-center">
+              <h5 class="title">Testimonios</h5>
+              <h3 class="dark-color">Nuestros usuarios nos aprueban!</h3>
+              <div class="space-60"></div>
             </div>
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="team-slide">
-                        <div class="team-box">
-                            <div class="team-image">
-                                <img src="images/team-1.png" alt="">
-                            </div>
-                            <h4>Padre de Familia 1</h4>
-                            <h6 class="position">Padre de Familia</h6>
-                            <p>Me encanta la aplicacion! Puedo encontrar tutores en linea de manera rapida y sencilla</p>
-                        </div>
-                        <div class="team-box">
-                            <div class="team-image">
-                                <img src="images/team-2.jpg" alt="">
-                            </div>
-                            <h4>Padre de Familia 2</h4>
-                            <h6 class="position">Contador</h6>
-                            <p>Gracias a AfterTeach puedo contribuir aun mas al desarrollo academico de mi hijo y saber su progreso</p>
-                        </div>
-                        <div class="team-box">
-                            <div class="team-image">
-                                <img src="images/team-3.jpg" alt="">
-                            </div>
-                            <h4>Madre de Familia 1</h4>
-                            <h6 class="position">Madre de familia</h6>
-                            <p>AfterTeach me ha simplificado mucho la vida, me ahorra tiempo y esfuerzo al buscar quien enseñe a mi pequeña</p>
-                        </div>
-                        <div class="team-box">
-                            <div class="team-image">
-                                <img src="images/team-1.png" alt="">
-                            </div>
-                            <h4>Profesor 1</h4>
-                            <h6 class="position">Profesor</h6>
-                            <p>Gracias a AfterTeach, he logrado conseguir tutorias que dictar en muy poco tiempo</p>
-                        </div>
-                        <div class="team-box">
-                            <div class="team-image">
-                                <img src="images/team-1.png" alt="">
-                            </div>
-                            <h4>Padre de Familia 1</h4>
-                            <h6 class="position">Padre de Familia</h6>
-                            <p>Me encanta la aplicacion! Puedo encontrar tutores en linea de manera rapida y sencilla</p>
-                        </div>
-                        <div class="team-box">
-                                <div class="team-image">
-                                    <img src="images/team-3.jpg" alt="">
-                                </div>
-                                <h4>Madre de Familia 1</h4>
-                                <h6 class="position">Madre de familia</h6>
-                                <p>AfterTeach me ha simplificado mucho la vida, me ahorra tiempo y esfuerzo al buscar quien enseñe a mi pequeña</p>
-                            </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="team-slide">
+              <div class="team-box">
+                <div class="team-image">
+                  <img src="images/team-1.png" alt="" />
+                </div>
+                <h4>Padre de Familia 1</h4>
+                <h6 class="position">Padre de Familia</h6>
+                <p>
+                  Me encanta la aplicacion! Puedo encontrar tutores en linea de
+                  manera rapida y sencilla
+                </p>
+              </div>
+              <div class="team-box">
+                <div class="team-image">
+                  <img src="images/team-2.jpg" alt="" />
+                </div>
+                <h4>Padre de Familia 2</h4>
+                <h6 class="position">Contador</h6>
+                <p>
+                  Gracias a AfterTeach puedo contribuir aun mas al desarrollo
+                  academico de mi hijo y saber su progreso
+                </p>
+              </div>
+              <div class="team-box">
+                <div class="team-image">
+                  <img src="images/team-3.jpg" alt="" />
+                </div>
+                <h4>Madre de Familia 1</h4>
+                <h6 class="position">Madre de familia</h6>
+                <p>
+                  AfterTeach me ha simplificado mucho la vida, me ahorra tiempo
+                  y esfuerzo al buscar quien enseñe a mi pequeña
+                </p>
+              </div>
+              <div class="team-box">
+                <div class="team-image">
+                  <img src="images/team-1.png" alt="" />
+                </div>
+                <h4>Profesor 1</h4>
+                <h6 class="position">Profesor</h6>
+                <p>
+                  Gracias a AfterTeach, he logrado conseguir tutorias que dictar
+                  en muy poco tiempo
+                </p>
+              </div>
+              <div class="team-box">
+                <div class="team-image">
+                  <img src="images/team-1.png" alt="" />
+                </div>
+                <h4>Padre de Familia 1</h4>
+                <h6 class="position">Padre de Familia</h6>
+                <p>
+                  Me encanta la aplicacion! Puedo encontrar tutores en linea de
+                  manera rapida y sencilla
+                </p>
+              </div>
+              <div class="team-box">
+                <div class="team-image">
+                  <img src="images/team-3.jpg" alt="" />
+                </div>
+                <h4>Madre de Familia 1</h4>
+                <h6 class="position">Madre de familia</h6>
+                <p>
+                  AfterTeach me ha simplificado mucho la vida, me ahorra tiempo
+                  y esfuerzo al buscar quien enseñe a mi pequeña
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
+-->
     <!-- Testimonial-Area-End -->
+    
     <!-- Gallery-Area
     <section class="gallery-area section-padding" id="gallery_page">
         <div class="container">
@@ -449,7 +519,7 @@
         </div>
     </section>
     
-    <!-- Gallery-Area-End -->
+     Gallery-Area-End -->
     <!-- How-To-Use 
     <section class="section-padding">
         <div class="container">
@@ -500,26 +570,32 @@
     <!-- How-To-Use-End -->
     <!-- Download-Area -->
     <div class="download-area overlay" id="Descargar">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 col-sm-6 hidden-sm">
-                    <figure class="mobile-image">
-                        <img src="images/header-mobile 2.png" alt="">
-                    </figure>
-                </div>
-                <div class="col-xs-12 col-md-6 section-padding">
-                    <h3 class="white-color">Descarga nuestra app</h3>
-                    <div class="space-20"></div>
-                    <p>Descarga la aplicacion usando uno de los siguientes enlaces</p>
-                    <div class="space-60"></div>
-                    <a href="#" class="bttn-white sq"><img src="images/apple-icon.png" alt="apple icon"> Apple Store</a>
-                    <a href="#" class="bttn-white sq"><img src="images/play-store-icon.png" alt="Play Store Icon"> Play Store</a>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-sm-6 hidden-sm">
+            <figure class="mobile-image">
+              <img src="images/header-mobile 2.png" alt="" />
+            </figure>
+          </div>
+          <div class="col-xs-12 col-md-6 section-padding">
+            <h3 class="white-color">Descarga nuestra app</h3>
+            <div class="space-20"></div>
+            <p>Descarga la aplicacion usando uno de los siguientes enlaces</p>
+            <div class="space-60"></div>
+            <a href="#" class="bttn-white sq"
+              ><img src="images/apple-icon.png" alt="apple icon" /> Apple
+              Store</a
+            >
+            <a href="#" class="bttn-white sq"
+              ><img src="images/play-store-icon.png" alt="Play Store Icon" />
+              Play Store</a
+            >
+          </div>
         </div>
+      </div>
     </div>
     <!-- Download-Area-End -->
-    
+
     <!--Questions-Area 
     <section id="questions_page" class="questions-area section-padding">
         <div class="container">
@@ -603,71 +679,86 @@
 
     <!-- Footer-Area -->
     <footer class="footer-area" id="Contacto">
-        <div class="section-padding">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12">
-                        <div class="page-title text-center">
-                            <h5 class="title">Contactenos</h5>
-                            <h3 class="dark-color">Contactenos por los siguientes medios</h3>
-                            <div class="space-60"></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="footer-box">
-                            <div class="box-icon">
-                                <span class="lnr lnr-map-marker"></span>
-                            </div>
-                            <p>Av. After Teach 789. Lima, Peru <br /> Av. Argentina 7875. Lima, Peru</p>
-                        </div>
-                        <div class="space-30 hidden visible-xs"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="footer-box">
-                            <div class="box-icon">
-                                <span class="lnr lnr-phone-handset"></span>
-                            </div>
-                            <p>+51 916789273 <br /> +51 939013377</p>
-                        </div>
-                        <div class="space-30 hidden visible-xs"></div>
-                    </div>
-                    <div class="col-xs-12 col-sm-4">
-                        <div class="footer-box">
-                            <div class="box-icon">
-                                <span class="lnr lnr-envelope"></span>
-                            </div>
-                            <p>AfterTeach@gmail.com <br /> AfterTeach.com@gmail.com
-                            </p>
-                        </div>
-                    </div>
-                </div>
+      <div class="section-padding">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12">
+              <div class="page-title text-center">
+                <h5 class="title">Contactenos</h5>
+                <h3 class="dark-color">
+                  Contactenos por los siguientes medios
+                </h3>
+                <div class="space-60"></div>
+              </div>
             </div>
-        </div>
-        <!-- Footer-Bootom -->
-        <div class="footer-bottom">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xs-12 col-md-5">
-                        <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-            <span>Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved</span>
-            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                        <div class="space-30 hidden visible-xs"></div>
-                    </div>
-                    <div class="col-xs-12 col-md-7">
-                        <div class="footer-menu">
-                            <ul>
-                                <li><a href="#">Sobre nosotros</a></li>
-                                <li><a href="#">Caracteristicas</a></li>
-                                <li><a href="#">Contactenos</a></li>
-                            </ul>
-                        </div>
-                    </div>
+          </div>
+          <div class="row">
+            <div class="col-xs-12 col-sm-4">
+              <div class="footer-box">
+                <div class="box-icon">
+                  <span class="lnr lnr-map-marker"></span>
                 </div>
+                <p>
+                  Av. After Teach 789. Lima, Peru <br />
+                  Av. Argentina 7875. Lima, Peru
+                </p>
+              </div>
+              <div class="space-30 hidden visible-xs"></div>
             </div>
+            <div class="col-xs-12 col-sm-4">
+              <div class="footer-box">
+                <div class="box-icon">
+                  <span class="lnr lnr-phone-handset"></span>
+                </div>
+                <p>
+                  +51 916789273 <br />
+                  +51 939013377
+                </p>
+              </div>
+              <div class="space-30 hidden visible-xs"></div>
+            </div>
+            <div class="col-xs-12 col-sm-4">
+              <div class="footer-box">
+                <div class="box-icon">
+                  <span class="lnr lnr-envelope"></span>
+                </div>
+                <p>
+                  AfterTeach@gmail.com <br />
+                  AfterTeach.com@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-        <!-- Footer-Bootom-End -->
+      </div>
+      <!-- Footer-Bootom -->
+      <div class="footer-bottom">
+        <div class="container">
+          <div class="row">
+            <div class="col-xs-12 col-md-5">
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <span
+                >Copyright &copy;<script>
+                  document.write(new Date().getFullYear());
+                </script>
+                All rights reserved</span
+              >
+              <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+              <div class="space-30 hidden visible-xs"></div>
+            </div>
+            <div class="col-xs-12 col-md-7">
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="#">Sobre nosotros</a></li>
+                  <li><a href="#">Caracteristicas</a></li>
+                  <li><a href="#">Contactenos</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Footer-Bootom-End -->
     </footer>
     <!-- Footer-Area-End -->
     <!--Vendor-JS-->
@@ -683,6 +774,5 @@
     <script src="js/wow.min.js"></script>
     <!--Main-active-JS-->
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
